@@ -65,7 +65,7 @@ module.exports = {
                 {
                     title: 'java',
                     children: [
-                        '/java/1/', '/java/1/1','/java/1/2','/java/1/3',
+                        '/java/1/', '/java/1/1','/java/1/2','/java/1/3','/java/1/4'
                     ]
                 },
 
