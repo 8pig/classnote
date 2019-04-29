@@ -41,6 +41,9 @@ module.exports = {
                 },
                 {
                     title: 'Vue',
+                    children: [
+                        '/web/vue/'
+                 ]
                     // children: [
                     //                     //     '/accumulate/JS/test', // 以docs为根目录来查找文件
                     //                     //     // 上面地址查找的是：docs>accumulate>JS>README.md 文件
@@ -49,6 +52,12 @@ module.exports = {
                 },
                 {
                     title: 'React'
+                },
+                {
+                    title: 'npm-yarn',
+                    children: [
+                        '/web/npmyarn/'
+                 ]
                 }
             ],
             '/java/': [
