@@ -65,7 +65,14 @@ module.exports = {
                 {
                     title: 'java基础',
                     children: [
-                        '/java/1/1', '/java/1/2','/java/1/3','/java/1/4','/java/1/5','/java/1/6','/java/1/7'
+                        '/java/1/', '/java/1/1', '/java/1/2','/java/1/3','/java/1/4','/java/1/5','/java/1/6','/java/1/7'
+                    ]
+                },
+                {
+                    title: '网络编程',
+                    children: [
+                        '/java/2/',
+                        '/java/2/1',
                     ]
                 },
 
