@@ -74,6 +74,12 @@ module.exports = {
                         '/java/2/',
                         '/java/2/1',
                     ]
+                }, {
+                    title: 'MySQL',
+                    children: [
+                        '/java/3/',
+                        '/java/3/1',
+                    ]
                 },
 
             ],
