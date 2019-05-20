@@ -79,6 +79,12 @@ module.exports = {
                         '/java/3/', '/java/3/1','/java/3/2','/java/3/3','/java/3/4','/java/3/5','/java/3/6','/java/3/7'
                     ]
                 },
+                {
+                    title: 'JDBC',
+                    children: [
+                        '/java/4/', '/java/4/1'
+                    ]
+                },
 
             ],
         }
