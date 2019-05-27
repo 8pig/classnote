@@ -6,6 +6,18 @@
 </head>
 <body>
 <script>
+    function f() {
+        let a = 1;
+        return function () {
+            return a+1;
+        }
+        
+    }
+    let f1 = f();
+    console.log(f1())
+    
+    
+    
 </script>
 </body>
 </html>
