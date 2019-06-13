@@ -82,7 +82,13 @@ module.exports = {
                 {
                     title: 'JDBC',
                     children: [
-                        '/java/4/'
+                        '/java/4/','/java/4/1','/java/4/2','/java/4/3','/java/4/4'
+                    ]
+                },
+                {
+                    title: 'Servlet',
+                    children: [
+                        '/java/5/', '/java/5/1'
                     ]
                 }
 
