@@ -10,5 +10,5 @@ features:
   details: 享受 Vue + webpack 的开发体验，在 Markdown 中使用 Vue 组件，同时可以使用 Vue 来开发自定义主题。
 - title: 持续更新
   details: 天为被  地为床  男人要men 不要娘 ! 
-footer: MIT Licensed | Copyright © 2019-present zhaozhou
+footer: MIT Licensed | Copyright © 2019-present zhaozhou.
 ---
