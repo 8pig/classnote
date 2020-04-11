@@ -60,7 +60,7 @@ module.exports = {
                 {
                     title: 'Vue',
                     children: [
-                        '/web/vue/'
+                        '/web/vue/', '/web/vue/1'
                     ]
                     // children: [
                     //                     //     '/accumulate/JS/test', // 以docs为根目录来查找文件
