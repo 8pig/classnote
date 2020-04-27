@@ -40,6 +40,13 @@ module.exports = {
             '/web/': [
                 '/web/', // accumulate文件夹的README.md 不是下拉框形式
                 {
+                    title: '常用软件设置',
+                    children: [
+
+                        '/web/common/1'
+                    ]
+                },
+                {
                     title: 'css'
                 },
                 {
