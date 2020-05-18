@@ -61,7 +61,7 @@ module.exports = {
                 {
                     title: 'JS',
                     children: [
-                        '/web/js/', '/web/js/1'
+                        '/web/js/', '/web/js/1', '/web/js/2'
                     ]
                 },
                 {
