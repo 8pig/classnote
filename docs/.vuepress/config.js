@@ -79,9 +79,9 @@ module.exports = {
                     title: 'React'
                 },
                 {
-                    title: 'npm-yarn',
+                    title: 'common',
                     children: [
-                        '/web/npmyarn/'
+                        '/web/common/'
                     ]
                 }
             ],
