@@ -4,6 +4,23 @@
 ## promise 怎么捕获异常
 ## 数组去重
 ## new 一个对象的时候发生了什么
+``` javascript
+    function F ({name, age, ...}) {
+        this.name = name;
+        this.age = age;
+        this.... = ...
+    }
+    F.prototype.say = function () {
+        console.log(this.name)
+    }
+    let f = new F({name, age, ...})
+
+
+# 1. 首先会开辟一块内存空间 存放F的实例
+# 2. 构造函数会执行把 类的属性和方法 指向到当前实例
+# 3. 会把this 指向当前实例
+# 4. 隐式retrun this
+```
 ## 从输入网址到浏览器显示
 :::tip
 1. 浏览器检测缓存  如果有缓存则取缓存（强缓存 协议缓存）
