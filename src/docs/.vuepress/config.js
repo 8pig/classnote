@@ -115,6 +115,12 @@ module.exports = {
                     children: [
                         '/java/5/', '/java/5/1'
                     ]
+                },
+                {
+                    title: '注解',
+                    children: [
+                        '/java/6/'
+                    ]
                 }
 
             ],
