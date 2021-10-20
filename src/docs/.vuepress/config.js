@@ -121,6 +121,12 @@ module.exports = {
                     children: [
                         '/java/6/'
                     ]
+                },
+                {
+                    title: 'spring-boot 入门',
+                    children: [
+                        '/java/spring-boot/'
+                    ]
                 }
 
             ],
