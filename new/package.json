@@ -1,0 +1,20 @@
+{
+  "name": "classnote",
+  "version": "1.3.14",
+  "description": "class note",
+  "scripts": {
+    "dev": "vitepress dev docs",
+    "build:cli": "node ./scripts/build.js",
+    "build:docs": "vitepress build docs"
+  },
+  "keywords": [
+
+  ],
+  "author": "zz",
+  "license": "MIT",
+  "dependencies": {
+  },
+  "devDependencies": {
+    "vitepress": "^1.0.0-alpha.13"
+  }
+}

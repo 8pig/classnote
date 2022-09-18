@@ -9,8 +9,4 @@ const person = new Person("zzzz");
 person.run();
 person.run();
 person.run();
-document.title = "123";
 
-$(() => {});
-
-$("div");
