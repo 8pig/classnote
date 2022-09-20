@@ -8,3 +8,8 @@ function log(value: any){
     console.log(value)
 }
 log('2')
+
+function add(): void {
+    
+}
+

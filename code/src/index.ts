@@ -10,3 +10,11 @@ person.run();
 person.run();
 person.run();
 
+// let aa: void;
+// aa = null;
+// aa = undefined;
+let num22 = 123;
+num22 = null;
+num22 = undefined;
+
+
