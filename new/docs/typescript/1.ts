@@ -1,15 +1,19 @@
-const a: Array<any> = [1,2,3,4,5, 'a']
-const strArr: any[]= ['a', 'b', 'c', 1]
+type sum2num1 = (n1: number, n2: number) => number;
 
+const fn1: sum2num1 = (n1, n2) => n1 + n2;
 
-function log(value: string);
-function log(value: number);
-function log(value: any){
-    console.log(value)
-}
-log('2')
-
-function add(): void {
-    
+const fn2: sum2num1 = function (n1, n2) {
+      return n1 + n2
 }
 
+
+
+
+
+function say(a: number, b: number) {
+
+}
+function say1 ({a,b}: {a: string, b: string}){
+      console.log(a, b);
+
+}

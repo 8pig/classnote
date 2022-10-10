@@ -27,6 +27,14 @@ const num1: number = 12;
 let num2 = 3.14; // 不加类型注解 默认自动推导
 
 ```
+### boolean
+值为 true 或 false 会被推断为 boolean 类型
+
+```typescript
+const state = true; //let state: boolean
+
+```
+
 ## 对象类型
 ### 数组
 > 数组： 声明变量的一组集合称之为数组 ArrayList

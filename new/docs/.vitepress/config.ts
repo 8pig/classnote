@@ -33,7 +33,7 @@ export default defineConfig({
           text: "TS入门",
           items: [
             { text: "数据类型", link: "/typescript/data-type" },
-            { text: "关键字", link: "/typescript/index" }
+            { text: "关键字", link: "/typescript/keyword" },
           ],
         },
       ],
