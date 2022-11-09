@@ -17,3 +17,10 @@ function say1 ({a,b}: {a: string, b: string}){
       console.log(a, b);
 
 }
+
+
+const fn3:(a:number, b?: number) => number = (a, b) => {
+
+      return a + (<number> b);
+}
+// fn1(1,2);
