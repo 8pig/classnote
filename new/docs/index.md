@@ -12,9 +12,9 @@ hero:
   actions:
     - theme: brand
       text: 快速开始
-      link: /guide/about
+      link: /typescript/data-type
     - theme: alt
-      text: 在Gitee上查看
+      text: 在Github上查看
       link: https://github.com/8pig
 
 
