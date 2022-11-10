@@ -1,15 +1,15 @@
 import { defineConfig } from "vitepress";
 
 export default defineConfig({
-  title: "qian-cli",
-  description: "快速搭建vue3开发环境的脚手架",
+  title: "8pig",
+  description: "日常随手记",
   head: [
     ["link", { rel: "icon", href: "/vue3.png" }],
     [
       "meta",
       { name: "keywords", content: "qian-cli 首页,qian-cli 文档,轩小浅" },
     ],
-    ["meta", { name: "author", content: "轩小浅" }],
+    ["meta", { name: "author", content: "zz" }],
   ],
   themeConfig: {
     logo: "/vue3.png",
@@ -34,6 +34,9 @@ export default defineConfig({
           items: [
             { text: "数据类型", link: "/typescript/data-type" },
             { text: "关键字", link: "/typescript/keyword" },
+            { text: "接口", link: "/typescript/interface" },
+            { text: "函数", link: "/typescript/function" },
+            { text: "interface & type", link: "/typescript/type-interface" },
           ],
         },
       ],
