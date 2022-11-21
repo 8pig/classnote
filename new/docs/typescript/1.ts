@@ -24,3 +24,13 @@ const fn3:(a:number, b?: number) => number = (a, b) => {
       return a + (<number> b);
 }
 // fn1(1,2);
+
+type fn = (o: any, k: any) => any
+const getProperty=  <T, K extends keyof T>(o:T ,k: K): T[K] => {
+     
+      return o[k]
+}
+
+const obj = { age: 12, get:() => {}, name: new Map()}
+const a = getProperty(obj, 'name')
+
