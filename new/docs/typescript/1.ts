@@ -34,3 +34,35 @@ const getProperty=  <T, K extends keyof T>(o:T ,k: K): T[K] => {
 const obj = { age: 12, get:() => {}, name: new Map()}
 const a = getProperty(obj, 'name')
 
+
+function getValues<T, K extends keyof T>(obj: T, keys: K[]): T[K][] {
+      const arr = [] as T[K][]
+      keys.forEach(item => {
+            arr.push(obj[item])
+      })
+      return arr;
+}
+
+
+const result = getValues({a:"1",b:2}, ['a', 'b'] )
+
+type Condition<T> = T extends string ? string : number
+type res = Exclude<string | number | boolean, bigint | number>
+interface III {
+      name: string,
+      age: number
+}
+const ababa: III = {
+      name: "123",
+      age: 12
+}
+type aaaa = keyof III
+type a = Exclude<typeof ababa, string>
+
+
+type ElementOf<T> = T extends Array<infer E> ? E : T;
+
+type avava = ElementOf<string []>
+type adada = ElementOf<number []>
+type booleanadada = ElementOf<boolean []>
+type boolea21nadada = ElementOf<{name: string}>
