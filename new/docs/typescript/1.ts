@@ -66,3 +66,21 @@ type avava = ElementOf<string []>
 type adada = ElementOf<number []>
 type booleanadada = ElementOf<boolean []>
 type boolea21nadada = ElementOf<{name: string}>
+
+
+function p(): Promise<{data: any [], code: number, msg: string | undefined}> {
+      return new Promise((resolve, reject) => {
+            setTimeout(() => {
+                  resolve({data: [], code: 200, msg: 'success'})
+            }, 1000 * 3);
+     
+      })
+}
+
+p().then(result => {
+
+})
+
+let str1 = 'abc';
+// str1 = 'cna'
+ <boolean>str1  = false
